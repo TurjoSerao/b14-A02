@@ -18,12 +18,13 @@ body {
 
 .btn-primary {
   background-color: #e8ba2e;
-  padding: 8px;
+  padding: 10px;
   border-radius: 5px;
   border: 1px solid #e8ba2e;
   font-size: 13px;
   cursor: pointer;
   transition: 0.5s;
+  width: fit-content;
 }
 .btn-primary:hover {
   background-color: #e8ba2e84;
@@ -46,7 +47,7 @@ body {
 .nav ul {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
   list-style: none;
   cursor: pointer;
 }
@@ -56,6 +57,39 @@ body {
 }
 .nav ul li:hover {
   color: #e8ba2e;
+}
+
+/* hero section */
+.hero {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/hero-banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-content {
+  width: 600px;
+  padding: 60px;
+  margin-bottom: 40px;
+}
+.hero-content h2 {
+  font-size: 88px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -4%;
+  color: white;
+}
+.hero-content p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: white;
+  padding: 20px 0;
 }
 
 /* Footer */
