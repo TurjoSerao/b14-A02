@@ -92,10 +92,33 @@ body {
   padding: 20px 0;
 }
 
+/* feature section */
+.features {
+  background-color: #e8ba2e;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
 /* Footer */
 .footer {
   background-color: #0d1b2a;
   padding: 40px 0;
+}
+
+.feature-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.feature-content div p {
+  font-size: 16px;
+  color: #000102;
+  padding-bottom: 20px;
+}
+.feature-content div h3 {
+  font-size: 52px;
+  color: #000102;
 }
 
 .footer-left {
