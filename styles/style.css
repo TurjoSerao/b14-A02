@@ -100,12 +100,6 @@ body {
   border-radius: 5px;
 }
 
-/* Footer */
-.footer {
-  background-color: #0d1b2a;
-  padding: 40px 0;
-}
-
 .feature-content {
   display: flex;
   justify-content: space-between;
@@ -119,6 +113,59 @@ body {
 .feature-content div h3 {
   font-size: 52px;
   color: #000102;
+}
+
+/* explore cites section */
+.explore-cities {
+  margin: 40px 0;
+}
+.explore-cities h2 {
+  text-align: center;
+  font-size: 56px;
+  padding: 40px 0;
+  font-weight: 600;
+}
+
+.cities-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  width: 90%;
+  margin: 40px auto;
+}
+
+.cities-image img {
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.cities-content h3 {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.cities-content p {
+  font-size: 15px;
+  color: #575757;
+  line-height: 1.5;
+  padding-bottom: 10px;
+}
+.cities-content ul li {
+  font-size: 15px;
+  color: #575757;
+  line-height: 1.5;
+  margin-left: 20px;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  background-color: #0d1b2a;
+  padding: 40px 0;
 }
 
 .footer-left {
