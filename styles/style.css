@@ -117,7 +117,7 @@ body {
 
 /* explore cites section */
 .explore-cities {
-  margin: 40px 0;
+  padding: 40px 0;
 }
 .explore-cities h2 {
   text-align: center;
@@ -161,6 +161,82 @@ body {
 .btn-container {
   text-align: center;
 }
+
+/* table section */
+.match-day {
+  background-color: #f8f8f8;
+  margin: 80px 0;
+  border: 1px solid #d9d9d9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.match-day h3 {
+  font-size: 56px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.match-day p {
+  width: 650px;
+  color: #575757;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.matchDay-table {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.matchDay-table thead {
+  background: #a73131;
+  border: 1px solid #d9d9d9;
+  color: white;
+}
+
+.matchDay-table th {
+  padding: 18px 25px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+
+  border: 1px solid #d9d9d9;
+}
+
+.matchDay-table td {
+  padding: 18px 25px;
+  font-size: 15px;
+  color: #444;
+
+  border: 1px solid #d9d9d9;
+}
+
+.matchDay-table td span {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.matchDay-table tbody td:first-child {
+  color: #a73131;
+  font-weight: bold;
+}
+
+.opening {
+  color: #a73131;
+}
+
+.final {
+  color: #e8ba2e;
+}
+
+/* tournament timeline  */
 
 /* Footer */
 .footer {
